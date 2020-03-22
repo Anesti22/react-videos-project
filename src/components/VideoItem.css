@@ -10,9 +10,18 @@
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 970px) {
     .mobile-version {
-        display: flex;
-        flex-direction: column;
+        flex-direction: column!important;
     }
-  }
+
+    #root .mobile-version .eleven,
+    #root .mobile-version .five {
+        width: 100%!important;
+     }
+ 
+    #root .mobile-version .five {
+        width: 100%!important;
+        padding-top: 30px;
+    }
+}

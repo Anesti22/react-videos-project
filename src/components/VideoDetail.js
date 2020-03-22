@@ -18,7 +18,7 @@ return (
                 
             </div>
             <div className="ui segment" >
-                <img alt={video.snippet.title} class="ui avatar image" src={video.snippet.thumbnails.medium.url}/>
+                <img alt={video.snippet.title} className="ui avatar image" src={video.snippet.thumbnails.medium.url}/>
                 <span>{video.snippet.channelTitle}</span>
             </div>
         </div>
