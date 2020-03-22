@@ -7,3 +7,12 @@
 .video-item.item img {
     width: 180px!important;
 }       
+
+
+
+@media screen and (max-width: 600px) {
+    .mobile-version {
+        display: flex;
+        flex-direction: column;
+    }
+  }
