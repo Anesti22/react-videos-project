@@ -31,8 +31,8 @@ class App extends React.Component {
         return (
             <div className="ui container">
                 <SearchBar onFormSubmit={this.onTermSubmit}/>
-                <div className="ui grid mobile-version">
-                    <div className="ui row">
+                <div className="ui grid">
+                    <div className="ui row mobile-version">
                         <div className="eleven wide column">
                             <VideoDetail video={this.state.selectedVideo}/>
                         </div>
